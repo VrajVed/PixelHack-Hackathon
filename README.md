@@ -1,4 +1,4 @@
-# 🍛 Kesari Da Dhaba Website – PixelHack 2025
+# Kesari Da Dhaba Website – PixelHack 2025
 
 A responsive restaurant website built for **Kesari Da Dhaba**, a famous dhaba in Amritsar, Punjab, designed and developed during the **PixelHack Hackathon** using HTML, CSS, and JavaScript.
 
