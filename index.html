@@ -1,32 +1,472 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Loading...</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+<title>Kesar Da &amp; Dhaba</title>
+<meta content="Kesar Da Dhaba &amp; Amritsar" name="title"/>
+<link href="./favicon.svg" rel="shortcut icon" type="image/svg+xml"/>
+
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&amp;family=Forum&amp;display=swap" rel="stylesheet"/>
+
+<link href="./assets/css/style.css" rel="stylesheet"/>
+
+<link as="image" href="./assets/images/hero-slider-1.jpg" rel="preload"/>
+<link as="image" href="./assets/images/hero-slider-2.jpg" rel="preload"/>
+<link as="image" href="./assets/images/hero-slider-3.jpg" rel="preload"/>
 </head>
-<body>
-  <div class="loader-container">
-    <div class="top-text">
-      <span id="counter">0</span> - 100
-    </div>
+<body id="top">
 
-    <div class="main-text">
-      <div class="line fade-in" style="animation-delay: 0.8s;">YOUR</div>
-      <div class="line fade-in" style="animation-delay: 1.6s;">WEB EXPERIENCE</div>
-      <div class="line fade-in" style="animation-delay: 2.4s;">
-        IS LOADING RIGHT 
-        <span id="now-solid" class="now now-solid">NOW</span>
-        <span id="now-fade" class="now now-fade" style="display: none;">NOW</span>
-        <span id="now-stroke" class="now now-stroke" style="display: none;">NOW</span>
-      </div>
-    </div>
+<div class="preload" data-preaload="">
+<div class="circle"></div>
+<p class="text">Kesar Da Dhaba</p>
+</div>
 
-    <div class="subtext" id="subtext">Please wait<br>a few seconds</div>
+<div class="topbar">
+<div class="container">
+<address class="topbar-item">
+<div class="icon">
+<ion-icon aria-hidden="true" name="location-outline"></ion-icon>
+</div>
+<span class="span">
+          Chowk Passian, Hathi Gate, Amritsar
+        </span>
+</address>
+<div class="separator"></div>
+<div class="topbar-item item-2">
+<div class="icon">
+<ion-icon aria-hidden="true" name="time-outline"></ion-icon>
+</div>
+<span class="span">Daily : 8.00 am to 10.00 pm</span>
+</div>
+<a class="topbar-item link" href="tel:+911832532227">
+<div class="icon">
+<ion-icon aria-hidden="true" name="call-outline"></ion-icon>
+</div>
+<span class="span">+911832532227</span>
+</a>
+<div class="separator"></div>
+<a class="topbar-item link" href="mailto:kesardadhaba@gmail.com">
+<div class="icon">
+<ion-icon aria-hidden="true" name="mail-outline"></ion-icon>
+</div>
+<span class="span">kesardadhaba@gmail.com</span>
+</a>
+</div>
+</div>
+
+<header class="header" data-header="">
+<div class="container">
+<a class="logo" href="#">
+<img src="./assets/images/logo.png" alt="Kesar Da Dhaba - Home" height="50" width="100">
+
+</a>
+<nav class="navbar" data-navbar="">
+<button aria-label="close menu" class="close-btn" data-nav-toggler="">
+<ion-icon aria-hidden="true" name="close-outline"></ion-icon>
+</button>
+<a class="logo" href="#">
+<img alt="Kesar Da Dhaba - Home" height="50" src="./assets/images/logo.svg" width="100"/>
+</a>
+<ul class="navbar-list">
+<li class="navbar-item">
+<a class="navbar-link hover-underline active" href="#home">
+<div class="separator"></div>
+<span class="span">Home</span>
+</a>
+</li>
+<li class="navbar-item">
+<a class="navbar-link hover-underline" href="#menu">
+<div class="separator"></div>
+<span class="span">Menus</span>
+</a>
+</li>
+<li class="navbar-item">
+<a class="navbar-link hover-underline" href="#about">
+<div class="separator"></div>
+<span class="span">About Us</span>
+</a>
+</li>
+<li class="navbar-item">
+<a class="navbar-link hover-underline" href="#">
+<div class="separator"></div>
+<span class="span">Our Chefs</span>
+</a>
+</li>
+<li class="navbar-item">
+<a class="navbar-link hover-underline" href="#">
+<div class="separator"></div>
+<span class="span">Contact</span>
+</a>
+</li>
+</ul>
+<div class="text-center">
+<p class="headline-1 navbar-title">Visit Us</p>
+<address class="body-4">
+           Near Telephone Exchange, Chowk Passian <br/>
+            Hathi Gate, Amritsar
+          </address>
+<p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+<a class="body-4 sidebar-link" href="mailto:kesardadhaba@gmail.com.com">kesardadhaba@gmail.com</a>
+<div class="separator"></div>
+<p class="contact-label">Booking Request</p>
+<a class="body-1 contact-number hover-underline" href="tel:+911832532227">
+            +911832532227
+          </a>
+</div>
+</nav>
+<a class="btn btn-secondary" href="#">
+<span class="text text-1">Find A Table</span>
+<span aria-hidden="true" class="text text-2">Find A Table</span>
+</a>
+<button aria-label="open menu" class="nav-open-btn" data-nav-toggler="">
+<span class="line line-1"></span>
+<span class="line line-2"></span>
+<span class="line line-3"></span>
+</button>
+<div class="overlay" data-nav-toggler="" data-overlay=""></div>
+</div>
+</header>
+<main>
+<article>
+
+<section aria-label="home" class="hero text-center" id="home">
+<ul class="hero-slider" data-hero-slider="">
+<li class="slider-item active" data-hero-slider-item="">
+<div class="slider-bg">
+<img alt="" class="img-cover" height="950" src="./assets/images/hero-slider-1.png" width="1880"/>
+</div>
+<p class="label-2 section-subtitle slider-reveal">Tradational &amp; Hygine</p>
+<h1 class="display-1 hero-title slider-reveal">
+              Savor the taste of <br/>
+             traditional Indian cuisine.
+            </h1>
+<p class="body-2 hero-text slider-reveal">
+              Come with family &amp; feel the joy of mouthwatering food
+            </p>
+<a class="btn btn-primary slider-reveal" href="#">
+<span class="text text-1">View Our Menu</span>
+<span aria-hidden="true" class="text text-2">View Our Menu</span>
+</a>
+</li>
+<li class="slider-item" data-hero-slider-item="">
+<div class="slider-bg">
+<img alt="" class="img-cover" height="950" src="./assets/images/hero-slider-2.jpg" width="1880"/>
+</div>
+<p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+<h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br/>
+              the Seasons
+            </h1>
+<p class="body-2 hero-text slider-reveal">
+              Come with family &amp; feel the joy of mouthwatering food
+            </p>
+<a class="btn btn-primary slider-reveal" href="#">
+<span class="text text-1">View Our Menu</span>
+<span aria-hidden="true" class="text text-2">View Our Menu</span>
+</a>
+</li>
+<li class="slider-item" data-hero-slider-item="">
+<div class="slider-bg">
+<img alt="" class="img-cover" height="950" src="./assets/images/hero-slider-3.jpg" width="1880"/>
+</div>
+<p class="label-2 section-subtitle slider-reveal">amazing &amp; delicious</p>
+<h1 class="display-1 hero-title slider-reveal">
+              Where every flavor <br/>
+              tells a story
+            </h1>
+<p class="body-2 hero-text slider-reveal">
+              Come with family &amp; feel the joy of mouthwatering food
+            </p>
+<a class="btn btn-primary slider-reveal" href="#">
+<span class="text text-1">View Our Menu</span>
+<span aria-hidden="true" class="text text-2">View Our Menu</span>
+</a>
+</li>
+</ul>
+<button aria-label="slide to previous" class="slider-btn prev" data-prev-btn="">
+<ion-icon name="chevron-back"></ion-icon>
+</button>
+<button aria-label="slide to next" class="slider-btn next" data-next-btn="">
+<ion-icon name="chevron-forward"></ion-icon>
+</button>
+<a class="hero-btn has-after" href="#">
+<img alt="booking icon" height="48" src="./assets/images/hero-icon.png" width="48"/>
+<span class="label-2 text-center span">Book A Table</span>
+</a>
+</section>
+
+<section aria-label="service" class="section service bg-black-10 text-center">
+<div class="container">
+<p class="section-subtitle label-2">Flavors For Royalty</p>
+<h2 class="headline-1 section-title">We Offer Top Notch</h2>
+<p class="section-text">
+          Welcome to Kesari Da Dhaba – a true Amritsari experience where every bite tells a story. From rich buttery kulchas and creamy dal makhani to spicy pickles and chilled lassi, taste the soul of Punjab served with warmth and desi love
+          </p>
+<ul class="grid-list">
+<li>
+<div class="service-card">
+<a class="has-before hover:shine" href="#">
+<figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+<img alt="Breakfast" class="img-cover" height="336" loading="lazy" src="./assets/images/service-1.jpg" width="285"/>
+</figure>
+</a>
+<div class="card-content">
+<h3 class="title-4 card-title">
+<a href="#">Breakfast</a>
+</h3>
+<a class="btn-text hover-underline label-2" href="#">View Menu</a>
+</div>
+</div>
+</li>
+<li>
+<div class="service-card">
+<a class="has-before hover:shine" href="#">
+<figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+<img alt="Appetizers" class="img-cover" height="336" loading="lazy" src="./assets/images/service-2.jpg" width="285"/>
+</figure>
+</a>
+<div class="card-content">
+<h3 class="title-4 card-title">
+<a href="#">Appetizers</a>
+</h3>
+<a class="btn-text hover-underline label-2" href="#">View Menu</a>
+</div>
+</div>
+</li>
+<li>
+<div class="service-card">
+<a class="has-before hover:shine" href="#">
+<figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+<img alt="Drinks" class="img-cover" height="336" loading="lazy" src="./assets/images/service-3.jpg" width="285"/>
+</figure>
+</a>
+<div class="card-content">
+<h3 class="title-4 card-title">
+<a href="#">Drinks</a>
+</h3>
+<a class="btn-text hover-underline label-2" href="#">View Menu</a>
+</div>
+</div>
+</li>
+</ul>
+<img alt="shape" class="shape shape-1 move-anim" height="412" loading="lazy" src="./assets/images/shape-1.png" width="246"/>
+<img alt="shape" class="shape shape-2 move-anim" height="345" loading="lazy" src="./assets/images/shape-2.png" width="343"/>
+</div>
+</section>
+
+<section aria-labelledby="about-label" class="section about text-center" id="about">
+<div class="container">
+<div class="about-content">
+<p class="label-2 section-subtitle" id="about-label">Our Story</p>
+<h2 class="headline-1 section-title">Straight from the Pind to Your Plate</h2>
+<p class="section-text">
+           Step into a world of authentic Punjabi flavors where every dish is crafted with desi ghee, traditional spices, and a whole lot of love. From buttery naans and creamy dals to tandoori delights and refreshing lassi, it's not just a meal — it’s a journey through the vibrant streets of Punjab.
+            </p>
+<div class="contact-label">Book Through Call</div>
+<a class="body-1 contact-number hover-underline" href="tel:+804001234567">+911832532227</a>
+<a class="btn btn-primary" href="#">
+<span class="text text-1">Read More</span>
+<span aria-hidden="true" class="text text-2">Read More</span>
+</a>
+</div>
+<figure class="about-banner">
+<img alt="about banner" class="w-100" data-parallax-item="" data-parallax-speed="1" height="570" loading="lazy" src="./assets/images/about-banner.jpg" width="570"/>
+<div class="abs-img abs-img-1 has-before" data-parallax-item="" data-parallax-speed="1.75">
+<img alt="" class="w-100" height="285" loading="lazy" src="./assets/images/about-abs-image.jpg" width="285"/>
+</div>
+<div class="abs-img abs-img-2 has-before">
+<img alt="" height="134" loading="lazy" src="./assets/images/badge-2.png" width="133"/>
+</div>
+</figure>
+<img alt="" class="shape" height="194" loading="lazy" src="./assets/images/shape-3.png" width="197"/>
+</div>
+</section>
+
+<section aria-labelledby="dish-label" class="special-dish text-center">
+  <div class="special-dish-banner">
+    <img alt="special dish" class="img-cover" height="900" loading="lazy" src="./assets/images/special-dish-banner.jpg" width="940"/>
   </div>
+  <div class="special-dish-content bg-black-10">
+    <div class="container">
+      <img alt="badge" class="abs-img" height="41" loading="lazy" src="./assets/images/badge-1.png" width="28"/>
+      <p class="section-subtitle label-2">Special Dish</p>
+      <h2 class="headline-1 section-title">Heritage Paneer Masala</h2>
+      <p class="section-text">
+       Succulent paneer cubes slow-cooked in a buttery tomato-cashew gravy, enriched with cream and a medley of aromatic spices. A timeless North Indian favorite that defines indulgence.
+      </p>
+      <div class="wrapper">
+        <del class="del body-3">₹599</del>
+        <span class="span body-1">₹299</span>
+      </div>
+      <a class="btn btn-primary" href="#">
+        <span class="text text-1">View All Menu</span>
+        <span aria-hidden="true" class="text text-2">View All Menu</span>
+      </a>
+    </div>
+  </div>
+  <img alt="" class="shape shape-1" height="359" loading="lazy" src="./assets/images/shape-4.png" width="179"/>
+  <img alt="" class="shape shape-2" height="462" loading="lazy" src="./assets/images/shape-9.png" width="351"/>
+</section>
+<section aria-label="menu-label" class="section menu" id="menu">
+  <div class="container">
+    <p class="section-subtitle text-center label-2">Special Selection</p>
+    <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
 
-  <script src="script.js"></script>
-</body>
-</html>
+    <ul class="grid-list">
+<li>
+  <div class="menu-card hover:card">
+    <figure class="card-banner img-holder" style="width: 100px; height: 100px; overflow: hidden; border-radius: 8px;">
+      <img src="./assets/images/menu-1.png" 
+           alt="Sarson da Saag & Makki di Roti" 
+           width="100" 
+           height="100" 
+           loading="lazy" 
+           style="object-fit: cover; width: 100%; height: 100%; display: block;">
+    </figure>
+    <div>
+      <div class="title-wrapper">
+        <h3 class="title-3"><a href="#" class="card-title">Sarson da Saag & Makki di Roti</a></h3>
+        <span class="badge label-1">Seasonal</span>
+        <span class="span title-2">₹229</span>
+      </div>
+      <p class="card-text label-1">
+        Hearty mustard greens and maize flatbread, topped with white butter and jaggery — a winter staple from Punjab.
+      </p>
+    </div>
+  </div>
+</li>
+
+<li>
+  <div class="menu-card hover:card">
+    <figure class="card-banner img-holder" style="width: 100px; height: 100px; overflow: hidden; border-radius: 8px;">
+      <img src="./assets/images/menu-2.png" 
+           alt="Chole Bhature" 
+           width="100" 
+           height="100" 
+           loading="lazy" 
+           style="object-fit: cover; width: 100%; height: 100%; display: block;">
+    </figure>
+    <div>
+      <div class="title-wrapper">
+        <h3 class="title-3"><a href="#" class="card-title">Chole Bhature</a></h3>
+        <span class="span title-2">₹149</span>
+      </div>
+      <p class="card-text label-1">
+        Spicy chickpeas served with deep-fried bhature and tangy chutney — a Punjabi breakfast favourite.
+      </p>
+    </div>
+  </div>
+</li>
+
+<li>
+  <div class="menu-card hover:card">
+    <figure class="card-banner img-holder" style="width: 100px; height: 100px; overflow: hidden; border-radius: 8px;">
+      <img src="./assets/images/menu-3.png" 
+           alt="Amritsari Kulcha" 
+           width="100" 
+           height="100" 
+           loading="lazy" 
+           style="object-fit: cover; width: 100%; height: 100%; display: block;">
+    </figure>
+    <div>
+      <div class="title-wrapper">
+        <h3 class="title-3"><a href="#" class="card-title">Amritsari Kulcha</a></h3>
+        <span class="span title-2">₹159</span>
+      </div>
+      <p class="card-text label-1">
+        Stuffed and tandoor-baked kulchas, crisp outside and soft inside, served with chole and salad.
+      </p>
+    </div>
+  </div>
+</li>
+
+<li>
+  <div class="menu-card hover:card">
+    <figure class="card-banner img-holder" style="width: 100px; height: 100px; overflow: hidden; border-radius: 8px;">
+      <img src="./assets/images/menu-4.png" 
+           alt="Dal Makhani" 
+           width="100" 
+           height="100" 
+           loading="lazy" 
+           style="object-fit: cover; width: 100%; height: 100%; display: block;">
+    </figure>
+    <div>
+      <div class="title-wrapper">
+        <h3 class="title-3"><a href="#" class="card-title">Dal Makhani</a></h3>
+        <span class="badge label-1">Chef's Special</span>
+        <span class="span title-2">₹239</span>
+      </div>
+      <p class="card-text label-1">
+        Black lentils slow-cooked in butter and cream for hours — rich, smoky, and deeply satisfying.
+      </p>
+    </div>
+  </div>
+</li>
+
+<li>
+  <div class="menu-card hover:card">
+    <figure class="card-banner img-holder" style="width: 100px; height: 100px; overflow: hidden; border-radius: 8px;">
+      <img src="./assets/images/menu-5.png" 
+           alt="Tandoori Chicken" 
+           width="100" 
+           height="100" 
+           loading="lazy" 
+           style="object-fit: cover; width: 100%; height: 100%; display: block;">
+    </figure>
+    <div>
+      <div class="title-wrapper">
+        <h3 class="title-3"><a href="#" class="card-title">Tandoori Chicken</a></h3>
+        <span class="span title-2">₹329</span>
+      </div>
+      <p class="card-text label-1">
+        Juicy chicken marinated in yoghurt and spices, roasted in the tandoor for a fiery, smoky finish.
+      </p>
+    </div>
+  </div>
+</li>
+
+<li>
+  <div class="menu-card hover:card">
+    <figure class="card-banner img-holder" style="width: 100px; height: 100px; overflow: hidden; border-radius: 8px;">
+      <img src="./assets/images/menu-6.png" 
+           alt="Rajma Chawal" 
+           width="100" 
+           height="100" 
+           loading="lazy" 
+           style="object-fit: cover; width: 100%; height: 100%; display: block;">
+    </figure>
+    <div>
+      <div class="title-wrapper">
+        <h3 class="title-3"><a href="#" class="card-title">Rajma Chawal</a></h3>
+        <span class="span title-2">₹169</span>
+      </div>
+      <p class="card-text label-1">
+        Comfort food at its best — red kidney beans in a thick gravy served over a bed of steamed rice.
+      </p>
+    </div>
+  </div>
+</li>
+
+
+    </ul>
+
+    <p class="menu-text text-center">
+      During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+    </p>
+
+    <a href="#" class="btn btn-primary">
+      <span class="text text-1">View All Menu</span>
+      <span class="text text-2" aria-hidden="true">View All Menu</span>
+    </a>
+
+    <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+    <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+
+  </div>
+</section>
