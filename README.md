@@ -2,16 +2,18 @@
 
 A responsive restaurant website built for **Kesari Da Dhaba**, a famous dhaba in Amritsar, Punjab, designed and developed during the **PixelHack Hackathon** using HTML, CSS, and JavaScript.
 
+🔗 **Live Website:** [https://pixelhackathonkesardadhaba.netlify.app/](https://pixelhackathonkesardadhaba.netlify.app/)
+
 ---
 
 ## 🚀 Features
 
-- Clean and modern UI
-- Smooth scroll animations
-- Mobile-first responsive design
-- Booking/contact form
-- Customer testimonials section
-- Visit us section with location info
+- Clean and modern UI  
+- Smooth scroll animations  
+- Mobile-first responsive design  
+- Booking/contact form  
+- Customer testimonials section  
+- Visit us section with location info  
 - Simple and user-friendly layout
 
 ### 🧩 PixelHack Elements Implemented
@@ -29,5 +31,3 @@ A responsive restaurant website built for **Kesari Da Dhaba**, a famous dhaba in
 - HTML5  
 - CSS3  
 - JavaScript
-
----
