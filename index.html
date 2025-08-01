@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loading...</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="loader-container">
+    <div class="top-text"><span id="counter">0</span> - 100</div>
+
+    <div class="main-text">
+      <div class="line fade-in" style="animation-delay: 0.8s;">YOUR</div>
+      <div class="line fade-in" style="animation-delay: 1.6s;">WEB EXPERIENCE</div>
+      <div class="line fade-in" style="animation-delay: 2.4s;">
+        IS LOADING RIGHT 
+        <span id="now-solid" class="now now-solid">NOW</span>
+        <span id="now-fade" class="now now-fade" style="display: none;">NOW</span>
+        <span id="now-stroke" class="now now-stroke" style="display: none;">NOW</span>
+      </div>
+    </div>
+
+    <div class="subtext" id="subtext">Please wait<br/>a few seconds</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
