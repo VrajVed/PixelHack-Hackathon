@@ -16,6 +16,8 @@ A responsive restaurant website built for **Kesari Da Dhaba**, a famous dhaba in
 - Visit us section with location info  
 - Simple and user-friendly layout
 
+---
+
 ### 🧩 PixelHack Elements Implemented
 
 - ✅ Loader page with animation  
@@ -31,3 +33,10 @@ A responsive restaurant website built for **Kesari Da Dhaba**, a famous dhaba in
 - HTML5  
 - CSS3  
 - JavaScript
+
+---
+
+## 👨‍💻 Crafted at PixelHack 2025 by
+
+- **Darshan Ved**  
+- **Vraj Ved**
